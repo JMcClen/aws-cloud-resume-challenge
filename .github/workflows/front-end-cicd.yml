@@ -15,8 +15,8 @@ jobs:
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
-          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_S3_BUCKET: ${{ jmcc-cloud-resume-challenge }}
+          AWS_ACCESS_KEY_ID: ${{ AKIAVILGYHVHA5RB73JS }}
+          AWS_SECRET_ACCESS_KEY: ${{ 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 }}
           AWS_REGION: 'us-east-1'
           SOURCE_DIR: 'CloudResumeChallengeFolder'
